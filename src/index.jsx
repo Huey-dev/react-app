@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './Counter.jsx'
+import Counter from './Counter.jsx'
+import main from './'
 
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <App/>
+  <Counter/>
 )
